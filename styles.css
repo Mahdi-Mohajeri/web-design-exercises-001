@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: #FFF8FD;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h4, .rev p {
+  color: hsl(300, 24%, 96%);
+}
+
+h5 {
+   color: hsl(333, 80%, 67%);
+ }
+ span {
+   padding: 0 30px;
+}
+.bg-img-top {
+  margin-top: 0;
+  top: 0;
+  position: absolute;
+}
+
+.bg-img-bott {
+  position: absolute;
+  right: 0;
+  width: 65%;
+}
+
+.top-container {
+  position: relative;
+  margin: 80px 10% 0 10%;
+}
+
+.introduction {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+.introduction h1 {
+  font-size: 4rem;
+  color: hsl(300, 43%, 22%);
+  width: 75%;
+  font-weight: bold;
+}
+.introduction p {
+  font-size: 1.25rem;
+  color: hsl(303, 10%, 53%);
+  width: 85%;
+  line-height: 1.5;
+}
+
+
+.review-samples {
+  display: inline-block;
+  position: absolute;
+  color: hsl(300, 43%, 22%);
+  width: 45%;
+  right: 0;
+}
+.re-s-1, .re-s-2, .re-s-3 {
+  top: 60px;
+  position: relative;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background-color: #f7e0f1;
+  padding: 15px;
+  font-weight: bold;
+}
+.re-s-1 {
+  right: 80px;
+}
+.re-s-2 {
+  right: 40px;
+}
+.bottom-container {
+  position: relative;
+  margin: 20px 10% 100px 10%;
+}
+
+.rev {
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 27%;
+  display : inline-block;
+
+}
+.rev p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+.img-rev {
+  border-radius: 100%;
+  width: 15%;
+  float: left;
+}
+.rev h4, .rev h5 {
+  padding-left: 70px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.rev-1 {
+  position:relative;
+  left: 0;
+}
+.rev-2 {
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 30px;
+}
+.rev-3 {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.attribution {
+  margin: 40px 0;
+}
